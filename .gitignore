@@ -1,0 +1,6 @@
+.gradle
+build
+.cp/
+
+# Cache of project
+.gradletasknamecache
