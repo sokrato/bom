@@ -28,6 +28,9 @@ dependencies {
         // clojure
         api("nrepl:nrepl:0.7.0")
         api("org.clojure:clojure:1.10.1")
+        // see https://github.com/jruby/jruby/wiki/RedBridge
+        // for embedding ruby in JVM
+        api("org.jruby:jruby:9.2.13.0")
         // groovy
         api("org.codehaus.groovy:groovy-all:2.5.8")
         api("org.spockframework:spock-core:1.3-groovy-2.5")
