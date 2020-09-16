@@ -1,5 +1,5 @@
 group = "io.github.sokrato"
-version = "0.1.0-SNAPSHOT"
+version = "0.1.1"
 
 plugins {
     `java-platform`
@@ -61,7 +61,7 @@ dependencies {
         api("com.github.gwenn:sqlite-dialect:0.1.0")
 
         // testing
-        api("org.junit.jupiter:junit-jupiter:5.6.2")
+        api("org.junit.jupiter:junit-jupiter:5.7.0")
         api("org.testng:testng:7.3.0")
         api("org.mockito:mockito-core:3.5.10")
         api("com.github.h-thurow:simple-jndi:0.23.0")
