@@ -1,6 +1,18 @@
 group = "io.github.sokrato"
 version = "0.1.1"
 
+// https://docs.gradle.org/current/userguide/writing_build_scripts.html
+// https://docs.gradle.org/current/dsl/org.gradle.api.plugins.ExtraPropertiesExtension.html
+// https://docs.gradle.org/current/userguide/command_line_interface.html
+project.ext {
+    // gradle -Denv=PROD
+    set("env", System.getProperty("env", "dev"))
+    // then later
+    if (project.ext["env"] != "dev") {
+        throw RuntimeException("no way, expecting dev env")
+    }
+}
+
 plugins {
     `java-platform`
     `maven-publish`
