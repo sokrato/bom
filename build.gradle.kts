@@ -59,7 +59,7 @@ dependencies {
         api("com.jcraft:jsch:0.1.55")
 
         // json
-        api("com.fasterxml.jackson.core:jackson-databind:2.11.0")
+        api("com.fasterxml.jackson.core:jackson-databind:2.11.2")
         api("com.google.code.gson:gson:2.8.6")
 
         // database
@@ -69,7 +69,7 @@ dependencies {
         api("mysql:mysql-connector-java:8.0.20")
         api("org.mybatis:mybatis:3.5.5")
         api("org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.2.Final")
-        api("org.hibernate:hibernate-core:5.4.21.Final")
+        api("org.hibernate:hibernate-core:5.4.22.Final")
         api("com.github.gwenn:sqlite-dialect:0.1.0")
 
         // testing
