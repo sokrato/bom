@@ -1,5 +1,5 @@
 group = "io.github.sokrato"
-version = "0.1.1"
+version = "0.1.2-SNAPSHOT"
 
 // https://docs.gradle.org/current/userguide/writing_build_scripts.html
 // https://docs.gradle.org/current/dsl/org.gradle.api.plugins.ExtraPropertiesExtension.html
@@ -71,6 +71,9 @@ dependencies {
         api("org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.2.Final")
         api("org.hibernate:hibernate-core:5.4.22.Final")
         api("com.github.gwenn:sqlite-dialect:0.1.0")
+
+        // web
+        api("commons-fileupload:commons-fileupload:1.4")
 
         // testing
         api("org.junit.jupiter:junit-jupiter:5.7.0")
