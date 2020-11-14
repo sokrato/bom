@@ -78,7 +78,7 @@ dependencies {
         // testing
         api("org.junit.jupiter:junit-jupiter:5.7.0")
         api("org.testng:testng:7.3.0")
-        api("org.mockito:mockito-core:3.5.10")
+        api("org.mockito:mockito-core:3.6.0")
         api("com.github.h-thurow:simple-jndi:0.23.0")
 
         // CLI
