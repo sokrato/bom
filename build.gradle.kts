@@ -1,5 +1,5 @@
 group = "io.github.sokrato"
-version = "0.1.2-SNAPSHOT"
+version = "0.1.2"
 
 // https://docs.gradle.org/current/userguide/writing_build_scripts.html
 // https://docs.gradle.org/current/dsl/org.gradle.api.plugins.ExtraPropertiesExtension.html
@@ -38,7 +38,7 @@ dependencies {
 
         // JVM Language
         // clojure
-        api("nrepl:nrepl:0.7.0")
+        api("nrepl:nrepl:0.8.3")
         api("org.clojure:clojure:1.10.1")
         // see https://github.com/jruby/jruby/wiki/RedBridge
         // for embedding ruby in JVM
